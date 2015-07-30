@@ -19,3 +19,10 @@ PHP Example:
     $fileContent = file_get_contents('redis:///path/to/file');
 ```
 
+*This code is using `127.0.0.1:6379` as string connection for Redis*
+
+## Using
+```php
+    \VRS\Redis\Factory::getInstance()->capture();    
+```
+After this, you can use the PHP Example above for testing.
