@@ -1,0 +1,22 @@
+{
+  "name":         "VitorVRS/php-redis-stream-wrapper",
+  "description":  "PHP Stream Wrapper to use Redis as a File System",
+  "keywords":     ["file", "filesystem", "stream", "wrapper", "redis"],
+  "type":         "library",
+  "authors": [
+      {
+          "name":  "Vitor Rocha",
+          "email": "vitor.vrs@gmail.com"
+      }
+  ],
+
+  "require": {
+      "bcncommerce/stream-wrapper": "0.1.0"
+  },
+
+  "autoload": {
+    "psr-0": {
+      "VRS": "src"
+    }
+  }
+}
